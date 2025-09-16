@@ -39,4 +39,4 @@
 - halaman home
     ![home](img/output_home.png)
 
-    5. LATIHAN"# pembuatan-form-login-dan-registrasi-interaktif" 
+    5. LATIHAN 
