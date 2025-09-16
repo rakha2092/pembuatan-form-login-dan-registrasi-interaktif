@@ -40,3 +40,7 @@
     ![home](img/output_home.png)
 
    # 5. LATIHAN 
+- validasi input
+- tampilkan atau sembunyikan password
+- animasi sederhana
+- simpan sesi login
