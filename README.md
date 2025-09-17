@@ -41,6 +41,31 @@
 
    # 5. LATIHAN 
 - validasi input
+![latihan1](img/latihan1.png)
+disesi register tambahkan agar email hanya dapat berhasil jika menggunakan tanda @ menggunakan validasi at
 - tampilkan atau sembunyikan password
+![latihan2](img/latihan2.png)
+  bool _isPasswordVisible = false; tambahkan ini untuk menampilkan atau menyembunyikan password, lalu ditexfield tambahkan obscure password untuk menyembunyikan password
+![latihan2.2](img/latihan2.2.png)
+tambahkan icon mata untuk tampilan menyembunyikan password dengan cara suffixicon lalu visibility off
 - animasi sederhana
+![latihan3](img/latihan3.png)
+disini menambahkan hero widget agar tampilan animasi menjadi lebih mulus
 - simpan sesi login
+pertama dipubspec.yaml tambahkan
+google_fonts: ^6.2.1
+  shared_preferences: ^2.2.2 untuk ekstensi/dependensi import di file lainnya
+  lalu tambahkan juga import pada homepage, login page, dan main untuk preferences
+![latihan4](img/latihan4.png)
+tambahkan dihome page untuk menghapus semua data sesi login
+![latihan4.2](img/latihan4.2.png)
+tambahkan di login page untuk menyimpan sesi login
+![latihan4.3](img/latihan4.3.png)
+
+    # 6. HASIL AKHIR
+![latihan4.3](img/hasilpassword.jpg)
+hasil saat password disembunyikan
+![latihan4.3](img/hasilpassgagal.jpg)
+hasil saat registrasi gagal karena tidak menggunakan @
+![latihan4.3](img/hasilakhir.jpg)
+output akhir
